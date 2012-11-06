@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="plugin.audio.amazingradio"
-  version="1.0.2"
-  name="Amazing Radio"
-  provider-name="Simon Rice">
+  id="plugin.audio.intergalacticfm"
+  version="1.0.0"
+  name="Intergalactic FM"
+  provider-name="n2j3">
   <requires>
     <import addon="xbmc.python" version="1.0" />
   </requires>
@@ -12,7 +12,15 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <language></language>
-    <summary>Listen to Amazing Radio &amp; Amazing Ambient live XBMC</summary>
+    <summary>Listen to Intergalactic FM!</summary>
+    <summary lang="nl">Luister naar Intergalactic.fm!</summary>
+    <summary lang="zh">Intergalactic.fm 听!</summary>
+    <summary lang="pl">Słuchaj Intergalactic.fm!</summary>
+    <summary lang="ro">Asculta Intergalactic.fm!</summary>
+    <summary lang="es">Escuchar Intergalacti.fm!</summary>
+    <summary lang="el">Ακούστε Intergalactic.fm!</summary>
+    <description>Listen to Intergalactic FM | Music Pro Galaxy</description>
+    <disclaimer>Respect your neighbours, listen at a reasonable volume</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
