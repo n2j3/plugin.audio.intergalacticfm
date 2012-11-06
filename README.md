@@ -1,34 +1,47 @@
-# Unofficial Amazing Radio Plugin For XBMC
+Intergalactic.fm Radio plugin for XBMC
+================================
 
-This is a very, very basic plugin for XBMC that allows you to listen to live streams from Amazing Radio & Amazing Ambient.  
+This plugin provides a simple list of intergalactic.fm radio streams (IFM hereafter)
+So far it has been tested under Windows 7 64bit & in Crunchbang Waldorf (Debian Wheezy) 32bit
 
-So far it has been tested under Mac OSX & on my Raspberry Pi.
+Installation
+------------
 
-## Installation Instructions
+Simply download the latest zip file from the downloads page. On XBMC, go to System->Addons->Install from zip file & locate your downloaded zip file.
 
-Simply download the latest zip file from the [downloads](downloads/) page.  On XBMC, go to System->Addons->Install from zip file & locate your downloaded zip file.
+Download the latest .zip file from the downloads section, and place it into your 'addons' directory of XBMC. 
+This will differ between platforms.
 
-You can alternatively clone this repository & run the even more basic build script (by typing `sh build.sh` on a terminal) to generate the zip package, if you know what that means & have a UNIX compatible environment.
+For Windows:
+```
+  %APPDATA%\XBMC\addons (e.g. C:\Program Files\XBMC\addons)
+```
 
-## TODO
+For Linux:
+```
+	~/.xbmc/addons
+```
 
-* Add Amazing Rewind streams
-* Add timeshifted streaming
+For Mac:
+```
+	/Users/YOURUSERNAME/Library/Application Support/XBMC/addons
+```
 
-## Contributing
-
-To all you developers out there, feel free to chip into this addon if you find any fixes or improvements - I didn't choose GitHub just because I'm a fan of git!
+You can alternatively clone this repository & run the even more basic build script (by typing sh build.sh on a terminal) to generate the zip package, if you know what that means & have a UNIX compatible environment.
 
 ## Changelog
 
-### v1.0.2
+### v1.0.0
 
-* Amazing Radio stream fixes
+* Initial release
 
-### v1.0.1
+Disclaimer
+----------
+I'm not a programmer as such, I just forked/modified and ammended Simon Rice's Amazing Radio plugin. 
 
-* Fixes for Raspberry Pi (under Raspbmc) & some documentation improvements
+Contact
+----------
+Feel free to contact me by email at chq.beta#garliclife.com
 
-### v1.0
 
 * Initial release
