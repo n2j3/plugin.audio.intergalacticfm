@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PLUGIN_NAME=plugin.audio.amazingradio
+PLUGIN_NAME=plugin.audio.intergalacticfm
 
 mkdir $PLUGIN_NAME
 cp *.txt *.xml *.py icon.png $PLUGIN_NAME/.
