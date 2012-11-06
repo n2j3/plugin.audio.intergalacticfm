@@ -7,8 +7,10 @@ So far it has been tested under Windows 7 64bit & in Crunchbang Waldorf (Debian 
 Installation
 ------------
 
+### Method A:
 Simply download the latest zip file from the downloads page. On XBMC, go to System->Addons->Install from zip file & locate your downloaded zip file.
 
+### Method B:
 Download the latest .zip file from the downloads section, and place it into your 'addons' directory of XBMC. 
 This will differ between platforms.
 
@@ -27,6 +29,7 @@ For Mac:
 	/Users/YOURUSERNAME/Library/Application Support/XBMC/addons
 ```
 
+### Method C:
 You can alternatively clone this repository & run the even more basic build script (by typing sh build.sh on a terminal) to generate the zip package, if you know what that means & have a UNIX compatible environment.
 
 ## Changelog
