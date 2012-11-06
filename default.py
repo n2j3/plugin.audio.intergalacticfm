@@ -7,14 +7,18 @@ import sys
 thisPlugin = int(sys.argv[1])
 
 # Step 2 - create the support functions (or classes)
+# replace Simon's array with mine
+
 def createListing(): 
     """
     Creates a listing that XBMC can display as a directory listing
     @return list
     """
     listing = []
-    listing.append(['Amazing Radio','http://178.79.148.242:8000/listen.pls']) 
-    listing.append(['Amazing Ambient','http://stream-7.streamsolutions.co.uk:9038/listen.pls'])
+    listing.append(['IFM 1 | Murdercapital FM','http://radio.intergalactic.fm/1.m3u']) 
+    listing.append(['IFM 2 | Intergalactic Classix','http://radio.intergalactic.fm/2.m3u'])
+    listing.append(['IFM 3 | Radio Galaxia','http://radio.intergalactic.fm/3.m3u']) 
+    listing.append(['IFM 4 | The Dream Machine','http://radio.intergalactic.fm/4.m3u'])
     return listing
 
 
