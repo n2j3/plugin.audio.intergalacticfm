@@ -7,7 +7,7 @@ import sys
 thisPlugin = int(sys.argv[1])
 
 # Step 2 - create the support functions (or classes)
-# replace Simon's array with mine
+# replace Simon's list with mine
 
 def createListing(): 
     """
