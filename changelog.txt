@@ -1,2 +1,4 @@
 ### V.1.0.0
-	* Initial Release, shameless ripoff of Simon Rice's repo
+	- Initial Release, shameless ripoff of Simon Rice's repo
+### V.1.0.1
+	- Added thumbnails to listing/directory preview. Todo: Get some proper artwork in there !

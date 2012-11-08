@@ -15,10 +15,10 @@ def createListing():
     @return list
     """
     listing = []
-    listing.append(['IFM 1 | Murdercapital FM','http://radio.intergalactic.fm/1.m3u']) 
-    listing.append(['IFM 2 | Intergalactic Classix','http://radio.intergalactic.fm/2.m3u'])
-    listing.append(['IFM 3 | Radio Galaxia','http://radio.intergalactic.fm/3.m3u']) 
-    listing.append(['IFM 4 | The Dream Machine','http://radio.intergalactic.fm/4.m3u'])
+    listing.append(['IFM 1 | Murdercapital FM','http://radio.intergalactic.fm/1.m3u', 'special://home/addons/plugin.audio.intergalacticfm/thumb1.png']) #unwieldy special uri 
+    listing.append(['IFM 2 | Intergalactic Classix','http://radio.intergalactic.fm/2.m3u', 'special://home/addons/plugin.audio.intergalacticfm/thumb2.png'])
+    listing.append(['IFM 3 | Radio Galaxia','http://radio.intergalactic.fm/3.m3u', 'special://home/addons/plugin.audio.intergalacticfm/thumb3.png']) 
+    listing.append(['IFM 4 | The Dream Machine','http://radio.intergalactic.fm/4.m3u','special://home/addons/plugin.audio.intergalacticfm/thumb4.png'])
     return listing
 
 
@@ -32,9 +32,9 @@ def sendToXbmc(listing):
     #access global plugin id 
     global thisPlugin
 
-    # send each item to xbmc 
+    # send each item to xbmc avec thumbnail
     for item in listing:
-        listItem = xbmcgui.ListItem(item[0]) 
+        listItem = xbmcgui.ListItem(item[0], thumbnailImage=item[2]) 
         xbmcplugin.addDirectoryItem(thisPlugin,item[1],listItem)
 
     # tell xbmc we have finished creating the directory listing 
