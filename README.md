@@ -9,3 +9,5 @@ Visit [http://ifm.thedevilin.me](http://ifm.thedevilin.me) for installation inst
 ### Changelog
 
 	1.0.0 Initial Release
+	
+	1.0.1 Added thumbnails to listing/directory preview. Todo: Get some proper artwork in there !
